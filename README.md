@@ -21,13 +21,6 @@ If your component is written with Typescript, the extension will try to understa
 
 In alternative, you can create a Storybook file in the common format `{Component Name}.stories.jsx|tsx`, type `story` and hit tab to expand the snippet. You will get a basic story in the Component Story Format (CSF) filled out for you. 
 
-## Roadmap
-
-- ☑️ Javascript snippet
-- ☑️ Typescript snippet
-- ☑️ Command palette command to automate the file creation
-- ☑️ Make the command unrestand the props taken by the component to automatically fill the arguments with some defaults
-
 ## Known Issues
 
 None yet!
@@ -49,3 +42,7 @@ Updated README.md
 ### 1.2.0
 
 For Typescript files, detect if multiple components are exported and prompt the user to select the one to use.
+
+### 1.2.0
+
+Fork the original extension, add the updated types for Story and Meta and add snippets for CSF 3.0. 
