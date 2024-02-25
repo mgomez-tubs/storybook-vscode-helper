@@ -16,7 +16,7 @@
 				"",
 				"type Story = StoryObj<typeof meta>;",
 				"",
-				"export const Default: Story = {",
+				"export const ${5:Default}: Story = {",
 				"  args: {}",
 				"}",
 				"$0"
@@ -37,7 +37,7 @@
 				"  args: {},",
 				"} as Meta<typeof ${1:${TM_FILENAME/(.*).stories.tsx?/${1}/}}>;",
 				"",
-				"export const Default: StoryFn<typeof ${1:${TM_FILENAME/(.*).stories.tsx?/${1}/}}> = (args) => <${1:${TM_FILENAME/(.*).stories.tsx?/${1}/}} {...args}/>;",
+				"export const ${5:Default}: StoryFn<typeof ${1:${TM_FILENAME/(.*).stories.tsx?/${1}/}}> = (args) => <${1:${TM_FILENAME/(.*).stories.tsx?/${1}/}} {...args}/>;",
 				"$5.args = {};",
 				"$0"
 			],

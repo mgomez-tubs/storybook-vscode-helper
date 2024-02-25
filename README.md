@@ -45,4 +45,4 @@ For Typescript files, detect if multiple components are exported and prompt the 
 
 ### 1.2.0
 
-Fork the original extension, add the updated types for Story and Meta and add snippets for CSF 3.0. 
+Fork the original extension, add the updated types for Story and Meta and add snippets for CSF 3.0. The automatic argument generation when creating from a component was disabled.
